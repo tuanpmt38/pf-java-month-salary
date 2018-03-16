@@ -7,8 +7,8 @@ public class MonthSalary {
         System.out.println("Enter year:");
         year = sc.nextDouble();
         monthyfactor = factor * 4000000 + year * 500000;
-        if(factor<=1)System.out.println("Re-Enter");
-        else if (factor<=5) System.out.println("Monthy Factor:" +monthyfactor);
+        if (factor <= 1) System.out.println("Re-Enter");
+        else if (factor <= 5) System.out.println("Monthy Factor:" + monthyfactor);
         else
             System.out.println("Re-Enter");
     }
